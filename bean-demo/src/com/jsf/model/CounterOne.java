@@ -3,8 +3,11 @@ package com.jsf.model;
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.SessionScoped;
 
+/*
+ * Bean is created once for user's browser session. Unique for this user.
+ */
 @ManagedBean
-@SessionScoped // bean is created once for user's browser session, unique for this user
+@SessionScoped 
 public class CounterOne {
 
 	private int value = 0;

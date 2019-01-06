@@ -3,8 +3,11 @@ package com.jsf.model;
 import javax.faces.bean.ApplicationScoped;
 import javax.faces.bean.ManagedBean;
 
+/*
+ * Shared by all users of the application.
+ */
 @ManagedBean
-@ApplicationScoped // shared by all users of the application
+@ApplicationScoped
 public class CounterTwo {
 
 	private int value = 0;
