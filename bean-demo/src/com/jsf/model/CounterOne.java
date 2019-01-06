@@ -4,7 +4,7 @@ import javax.faces.bean.ManagedBean;
 import javax.faces.bean.SessionScoped;
 
 @ManagedBean
-@SessionScoped
+@SessionScoped // bean is created once for user's browser session, unique for this user
 public class CounterOne {
 
 	private int value = 0;
