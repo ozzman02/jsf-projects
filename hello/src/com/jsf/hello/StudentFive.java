@@ -12,8 +12,6 @@ public class StudentFive {
 	private String favoriteLanguage;
 	
 	public StudentFive() {
-		
-		// pre-populate the bean
 		firstName = "Mary";
 		lastName = "Public";
 		favoriteLanguage = "Ruby";
