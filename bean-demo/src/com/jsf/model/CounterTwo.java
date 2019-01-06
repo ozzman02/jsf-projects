@@ -4,7 +4,7 @@ import javax.faces.bean.ApplicationScoped;
 import javax.faces.bean.ManagedBean;
 
 @ManagedBean
-@ApplicationScoped
+@ApplicationScoped // used by all users of the application
 public class CounterTwo {
 
 	private int value = 0;
